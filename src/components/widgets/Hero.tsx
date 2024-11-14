@@ -22,10 +22,11 @@ export default component$((props: { theme?: string }) => {
         </div>
         <div class="relative max-w-7xl mx-auto lg:px-12 lg:gap-20 lg:mt-8 px-4 sm:px-6 flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left">
           <div class="lg:basis-1/2 pb-10 md:pb-16">
-            <h1 class="text-5xl md:text-6xl text-primary font-bold leading-tighter tracking-tighter mb-4 font-heading">
-              Draw Outside the Lines with
+            <h1 class="text-5xl md:text-6xl text-secondary font-bold leading-tighter tracking-tighter mb-4 font-heading">
+              Draw Outside The 
               <br class="hidden lg:block" />
               <span class="text-primary">Etchy Sketchy</span>
+              Lines
             </h1>
             <p class="text-xl text-muted mb-6 text-gray-900 max-w-3xl mx-auto lg:max-w-none">
               Master the lines, embrace the quirks, and turn every twist into a masterpiece—because art's all about the journey, not the perfect line.
