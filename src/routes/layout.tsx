@@ -1,8 +1,6 @@
 // src/layout.tsx
 import { component$, Slot, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
-
-import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "~/components/icons/IconChevronDown";
@@ -39,25 +37,27 @@ export default component$(() => {
 
   return (
     <>
+    
       {/* Header */}
       <header
-        id="header"
-        class={`sticky top-0 z-40 flex-none border-b border-gray-100 border-gray-50/0 transition-all ease-in-out duration-300 ${
-          isScrolling.value
-            ? "w-full md:bg-white/90 border-b border-gray-100 px-1 py-0 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
-            : " mx-auto p-2 rounded-lg shadow-md lg:mt-2 text-white sm:text-gray-900"
-        }`}
-      >
+  id="header"
+  class={`sticky top-0 z-40 ${selectedTheme.value} flex-none border-b border-gray-100 border-gray-50/0 transition-all ease-in-out duration-300 ${
+    isScrolling.value
+      ? "w-full md:bg-white/90 border-b border-gray-100 px-1 py-0 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
+      : "mx-auto lg:p-2 rounded-lg shadow-md lg:mt-2 text-white sm:text-gray-900"
+  }`}
+>
+
         <div class="absolute inset-0"></div>
         <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
           <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
             <a class="flex items-center" href={"/etch-a-sketch/"}>
-              <Logo />
+              {/* <Logo /> */}
               <div
                 class={`text-2xl md:text-xl font-bold whitespace-nowrap tracking-tight ${
                   isScrolling.value
-                    ? "text-gray-900 dark:text-slate-200"
-                    : "text-white md:text-gray-900 dark:md:text-slate-200"
+                    ? "text-primary dark:text-slate-200"
+                    : "text-primary md:text-gray-900 dark:md:text-slate-200"
                 }`}
               >
                 Webdev.ca
@@ -183,10 +183,10 @@ export default component$(() => {
       </header>
 
       {/* Main Content */}
-      <main class={`${selectedTheme.value}`}>
+     
       <Hero theme={`${selectedTheme.value}`}/>
         <Slot />
-      </main>
+     
 
       {/* Footer */}
       <Footer />
