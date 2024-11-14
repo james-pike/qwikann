@@ -41,9 +41,9 @@ export default component$(() => {
       {/* Header */}
       <header
   id="header"
-  class={`sticky top-0 z-40 ${selectedTheme.value} flex-none border-b border-gray-100 border-gray-50/0 transition-all ease-in-out duration-100 ${
+  class={`sticky top-0 z-40 flex-none border-b border-gray-100 border-gray-50/0 transition-all ease-in-out duration-100 ${
     isScrolling.value
-      ? "w-full md:bg-white/90 border-b border-gray-100 px-1 py-0 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
+      ? "w-full ${selectedTheme.value}  md:bg-white/90 border-b border-gray-100 px-1 py-0 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
       : "mx-auto lg:p-2 rounded-lg shadow-md lg:mt-2 text-white sm:text-gray-900"
   }`}
 >
