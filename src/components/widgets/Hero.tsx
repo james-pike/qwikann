@@ -1,8 +1,7 @@
-import { component$, PropFunction } from "@builder.io/qwik";
+import { component$} from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import { CoverImage } from "./coverImage";
 import { HeroBackground } from "./HeroBackground";
-import Hero1 from "./Hero1";
 
 // Define the component to accept a theme prop
 export default component$((props: { theme?: string }) => {
