@@ -9,6 +9,7 @@ import IconChevronDown from "~/components/icons/IconChevronDown";
 import Footer from "~/components/widgets/Footer";
 import Hero from "~/components/widgets/Hero";
 
+
 export default component$(() => {
   const themeColors = ["theme-indigo", "theme-red", "theme-orange", "theme-yellow", "theme-green", "theme-blue", "theme-violet"];
 
@@ -71,9 +72,9 @@ export default component$(() => {
     
      
               <div class="flex mb-8">
-        <label for="theme-selector" class="mr-4 text-lg font-medium">
-          Choose Theme:
-        </label>
+        {/* <label for="theme-selector" class="mr-4 text-lg font-medium">
+          <IconApps/>
+        </label> */}
         <select
           id="theme-selector"
           class="p-2 border border-gray-300 rounded"
@@ -146,9 +147,9 @@ export default component$(() => {
               <div class="flex">
                 <ToggleTheme iconClass={`w-6 h-6 md:w-5 md:h-5 ${isScrolling.value ? "text-gray-900 dark:text-slate-200" : "text-white"}`} />
                 <div class="flex mb-8">
-        <label for="theme-selector" class="mr-4 text-lg font-medium">
+        {/* <label for="theme-selector" class="mr-4 text-lg font-medium">
           Choose Theme:
-        </label>
+        </label> */}
         <select
           id="theme-selector"
           class="p-2 border border-gray-300 rounded"
