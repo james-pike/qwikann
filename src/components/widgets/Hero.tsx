@@ -3,7 +3,7 @@ import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";// If 
 
 // Define the component to accept a theme prop
 export default component$((props: { theme?: string }) => {
-  const { theme = "theme-indigo" } = props;
+  const { theme = "theme-yellow" } = props;
   const primaryColor = useSignal<string>("");
  // Default to "theme-indigo" if no theme is provided
 
@@ -17,6 +17,7 @@ export default component$((props: { theme?: string }) => {
 });
   return (
     <div>
+      <p>{primaryColor.value}</p>
       {/* Hero section with gradient background and theme applied */}
       <section class={`relative md:-mt-[76px] not-prose flex items-center justify-center h-[80vh] ${theme}`}>
         <div class="absolute inset-0 -mt-28 overflow-hidden -z-10">
