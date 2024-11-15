@@ -21,9 +21,9 @@
 }
 
 .theme-green {
-    --color-primary: #53d769; /* Base */
-    --color-secondary: #3ca251; /* Darkest */
-    --color-accent: #a8ebb4; /* Lightest */
+    --color-primary: #4CAF50; /* Base (Forest Green) */
+    --color-primary-dark: #357A38; /* Darkest */
+    --color-primary-light: #A8D5A4; /* Lightest */
 }
 
 .theme-indigo {
@@ -45,9 +45,9 @@
 }
 
 .theme-purple {
-    --color-primary: #8e8e93; /* Base */
-    --color-secondary: #5f5f63; /* Darkest */
-    --color-accent: #c7c7cb; /* Lightest */
+    --color-primary: #8585ff; /* Base */
+    --color-primary-dark: #5c5cb2; /* Darkest */
+    --color-primary-light: #c4c4ff; /* Lightest */
 }
 
 .theme-red {
