@@ -9,7 +9,7 @@ import Hero from "~/components/widgets/Hero";
 
 
 export default component$(() => {
-  const themeColors = ["theme-indigo", "theme-red", "theme-orange", "theme-yellow", "theme-green", "theme-blue", "theme-violet", "theme-teal", "theme-pink"];
+  const themeColors = ["theme-indigo", "theme-red", "theme-orange", "theme-yellow", "theme-green", "theme-blue", "theme-purple", "theme-teal", "theme-pink"];
 
   // Signal to store the selected theme color
   const selectedTheme = useSignal("");
