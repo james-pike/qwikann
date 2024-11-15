@@ -19,7 +19,7 @@ export default component$((props: { theme?: string }) => {
           />
         </div>
         <div class="relative max-w-7xl mx-auto lg:px-12 lg:gap-20 lg:mt-8 px-4 sm:px-6 flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left">
-          <div class="lg:basis-1/2 pb-60 md:pb-16">
+          <div class="lg:basis-1/2 pb-40 md:pb-16">
             <h1 class="text-5xl md:text-6xl text-primary font-bold leading-tighter tracking-tighter mb-4 font-heading">
               Build A Better {""}
               <br class="hidden lg:block" />
