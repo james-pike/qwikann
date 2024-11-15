@@ -1,5 +1,5 @@
 import { component$} from "@builder.io/qwik";
-import { HeroBackground } from "./HeroBackground";
+import { BlueBackground } from "./HeroBackground";
 
 // Define the component to accept a theme prop
 export default component$((props: { theme?: string }) => {
@@ -13,7 +13,7 @@ export default component$((props: { theme?: string }) => {
           <img
             width={600}
             height={600}
-            src={HeroBackground}
+            src={BlueBackground}
             alt="Background cover image"
             class="object-cover w-full h-full"
           />
