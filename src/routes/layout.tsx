@@ -189,7 +189,7 @@ export default component$(() => {
      
 
       {/* Footer */}
-      <Footer />
+      <Footer theme={`${selectedTheme.value}`}/>
     </>
   );
 });

@@ -7,7 +7,8 @@ import IconFacebook from "~/components/icons/IconFacebook"
 import IconGithub from "~/components/icons/IconGithub"
 
 
-export default component$(() => {
+export default component$((props: { theme?: string }) => {
+  const { theme = "theme-indigo" } = props; // Default to "theme-indigo" if no theme is provided
   const links = [
     {
       title: "Etch Features",
@@ -59,8 +60,8 @@ export default component$(() => {
   ];
 
   return (
-    <footer class="py-3 bg-gradient-to-r from-primary-300 via-pink-200 to-red-200 px-3">
-      <div class="max-w-7xl mx-auto px-6 bg-white dark:bg-gray-900 rounded-lg shadow-lg">
+    <footer class={`py-3 bg-gradient-to-r from-primary-300 via-pink-200 to-red-200 px-3 ${theme}`}>
+      <div class="max-w-7xl mx-auto px-6 bg-accent dark:bg-gray-900 rounded-lg shadow-lg">
         <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 pt-8 pb-2 md:py-12">
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">

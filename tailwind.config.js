@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         primary: 'var(--color-primary)',
         secondary: 'var(--color-secondary)',
-        bgPrimary: 'var(--color-bg-primary)',
+        accent: 'var(--color-accent)',
         tBase: 'var(--color-text-base)',
       },
       fontFamily: {
