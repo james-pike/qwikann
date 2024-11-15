@@ -21,10 +21,11 @@
 }
 
 .theme-green {
-    --color-primary: #357A38; /* Base (Forest Green) */
-    --color-primary-dark: #1F4F22; /* Darkest */
-    --color-primary-light: #76A475; /* Lightest */
+    --color-primary: #1F7735; /* Base (Deep Forest Green) */
+    --color-primary-dark: #134F23; /* Darkest */
+    --color-primary-light: #4FA865; /* Lightest */
 }
+
 
 .theme-indigo {
     --color-primary: #5856d6; /* Base */
