@@ -12,22 +12,59 @@
 }
 
 
-.theme-red {
-    --color-primary: hsl(0, 0%, 0%);
-    --color-secondary: hsl(0, 0%, 50%);
-}
+/* Apple iOS-inspired themes */
 
 .theme-blue {
-    --color-primary: hsl(220, 100%, 50%);
-    --color-secondary: hsl(220, 100%, 75%);
+    --color-primary: hsl(215, 100%, 50%); /* Base */
+    --color-primary-dark: hsl(215, 100%, 30%); /* Darkest */
+    --color-primary-light: hsl(215, 100%, 85%); /* Lightest */
+}
+
+.theme-green {
+    --color-primary: hsl(145, 63%, 42%); /* Base */
+    --color-primary-dark: hsl(145, 63%, 25%); /* Darkest */
+    --color-primary-light: hsl(145, 63%, 70%); /* Lightest */
+}
+
+.theme-indigo {
+    --color-primary: hsl(231, 48%, 48%); /* Base */
+    --color-primary-dark: hsl(231, 48%, 30%); /* Darkest */
+    --color-primary-light: hsl(231, 48%, 80%); /* Lightest */
+}
+
+.theme-orange {
+    --color-primary: hsl(24, 94%, 50%); /* Base */
+    --color-primary-dark: hsl(24, 94%, 35%); /* Darkest */
+    --color-primary-light: hsl(24, 94%, 75%); /* Lightest */
+}
+
+.theme-pink {
+    --color-primary: hsl(330, 100%, 50%); /* Base */
+    --color-primary-dark: hsl(330, 100%, 30%); /* Darkest */
+    --color-primary-light: hsl(330, 100%, 85%); /* Lightest */
 }
 
 .theme-purple {
-    --color-primary: hsl(270, 100%, 50%);
-    --color-secondary: hsl(270, 100%, 75%);
+    --color-primary: hsl(276, 47%, 50%); /* Base */
+    --color-primary-dark: hsl(276, 47%, 30%); /* Darkest */
+    --color-primary-light: hsl(276, 47%, 80%); /* Lightest */
 }
 
-.theme-black {
-    --color-primary: hsl(0, 0%, 0%);
-    --color-secondary: hsl(0, 0%, 50%);
+.theme-red {
+    --color-primary: hsl(0, 80%, 50%); /* Base */
+    --color-primary-dark: hsl(0, 80%, 35%); /* Darkest */
+    --color-primary-light: hsl(0, 80%, 85%); /* Lightest */
 }
+
+.theme-teal {
+    --color-primary: hsl(174, 62%, 45%); /* Base */
+    --color-primary-dark: hsl(174, 62%, 30%); /* Darkest */
+    --color-primary-light: hsl(174, 62%, 75%); /* Lightest */
+}
+
+.theme-yellow {
+    --color-primary: hsl(45, 100%, 50%); /* Base */
+    --color-primary-dark: hsl(45, 100%, 35%); /* Darkest */
+    --color-primary-light: hsl(45, 100%, 75%); /* Lightest */
+}
+

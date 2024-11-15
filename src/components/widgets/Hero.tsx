@@ -8,7 +8,7 @@ export default component$((props: { theme?: string }) => {
   return (
     <div>
       {/* <Hero1 /> */}
-      <section class={`relative md:-mt-[76px] not-prose flex items-center justify-center h-[100vh] ${theme}`}>
+      <section class={`relative md:-mt-[76px] not-prose flex items-center justify-center h-[80vh] ${theme}`}>
         <div class="absolute inset-0 -mt-28 overflow-hidden -z-10">
           <img
             width={600}
