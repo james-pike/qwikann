@@ -22,11 +22,11 @@ export default component$((props: { theme?: string }) => {
         </div>
         <div class="relative max-w-7xl mx-auto lg:px-12 lg:gap-20 lg:mt-8 px-4 sm:px-6 flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left">
           <div class="lg:basis-1/2 pb-10 md:pb-16">
-            <h1 class="text-5xl md:text-6xl text-tBase font-bold leading-tighter tracking-tighter mb-4 font-heading">
-              Draw Outside The 
+            <h1 class="text-5xl md:text-6xl text-primary font-bold leading-tighter tracking-tighter mb-4 font-heading">
+              Build A Better {""}
               <br class="hidden lg:block" />
-              <span class="text-primary">Etchy Sketchy</span>
-              Lines
+              <span class="text-secondary">Website {""}</span>
+             
             </h1>
             <p class="text-xl text-muted mb-6 text-gray-900 max-w-3xl mx-auto lg:max-w-none">
               Master the lines, embrace the quirks, and turn every twist into a masterpiece—because art's all about the journey, not the perfect line.
@@ -40,18 +40,18 @@ export default component$((props: { theme?: string }) => {
               >
                 Start Etching
               </a>
-              <button class="btn w-full  bg-secondary">Learn More</button>
+              <button class="btn w-full bg-secondary">Learn More</button>
             </div>
           </div>
           <div class="lg:basis-1/2">
-            <Image
+            {/* <Image
               src={CoverImage}
               alt="Background cover image"
               width={500} // adjust width to your layout needs
               height={500} // adjust height for your layout
               class="object-cover w-full h-full"
               priority="true"
-            />
+            /> */}
           </div>
         </div>
       </section>
