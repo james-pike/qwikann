@@ -4,9 +4,9 @@
 
 @layer base {
     :root{
-        --color-primary:hsl(0, 0%, 0%);
-        --color-secondary:hsl(0, 0%, 50%);
-        --color-text-base:hsl(0, 0%, 100%);
+        --color-primary:#000000;
+        --color-secondary:#808080;
+        --color-text-base:#FFFFFF;
         --color-bg-primary:hsl(0, 0%, 100%);
     }
 }
@@ -18,6 +18,12 @@
     --color-primary: #147efb; /* Base */
     --color-secondary: #0f5bb5; /* Darkest */
     --color-accent: #85c7ff; /* Lightest */
+}
+
+.theme-black {
+    --color-primary: #000000; /* Base */
+    --color-secondary: #808080; /* Darkest */
+    --color-accent: #B0B0B0; /* Lightest */
 }
 
 .theme-green {
