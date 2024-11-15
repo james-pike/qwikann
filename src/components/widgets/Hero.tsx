@@ -1,6 +1,4 @@
 import { component$} from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
-import { CoverImage } from "./coverImage";
 import { HeroBackground } from "./HeroBackground";
 
 // Define the component to accept a theme prop
