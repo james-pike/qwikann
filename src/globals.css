@@ -21,9 +21,9 @@
 }
 
 .theme-green {
-    --color-primary: #4CAF50; /* Base (Forest Green) */
-    --color-primary-dark: #357A38; /* Darkest */
-    --color-primary-light: #A8D5A4; /* Lightest */
+    --color-primary: #357A38; /* Base (Forest Green) */
+    --color-primary-dark: #1F4F22; /* Darkest */
+    --color-primary-light: #76A475; /* Lightest */
 }
 
 .theme-indigo {
@@ -39,9 +39,9 @@
 }
 
 .theme-pink {
-    --color-primary: #fc3158; /* Base */
-    --color-secondary: #c22542; /* Darkest */
-    --color-accent: #ff97a7; /* Lightest */
+    --color-primary: #c22542; /* Base (Deep Pink) */
+    --color-primary-dark: #8e1a31; /* Darkest */
+    --color-primary-light: #e68093; /* Lightest */
 }
 
 .theme-purple {
@@ -57,9 +57,9 @@
 }
 
 .theme-teal {
-    --color-primary: #5fc9f8; /* Base */
-    --color-secondary: #4191b3; /* Darkest */
-    --color-accent: #a6e4fc; /* Lightest */
+    --color-primary: #4191b3; /* Base (Deep Teal) */
+    --color-primary-dark: #2A6179; /* Darkest */
+    --color-primary-light: #80C5E0; /* Lightest */
 }
 
 .theme-yellow {
