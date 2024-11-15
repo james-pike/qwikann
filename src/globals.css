@@ -15,56 +15,55 @@
 /* Apple iOS-inspired themes */
 
 .theme-blue {
-    --color-primary: hsl(215, 100%, 50%); /* Base */
-    --color-primary-dark: hsl(215, 100%, 30%); /* Darkest */
-    --color-primary-light: hsl(215, 100%, 85%); /* Lightest */
+    --color-primary: #147efb; /* Base */
+    --color-primary-dark: #0f5bb5; /* Darkest */
+    --color-primary-light: #85c7ff; /* Lightest */
 }
 
 .theme-green {
-    --color-primary: hsl(145, 63%, 42%); /* Base */
-    --color-primary-dark: hsl(145, 63%, 25%); /* Darkest */
-    --color-primary-light: hsl(145, 63%, 70%); /* Lightest */
+    --color-primary: #53d769; /* Base */
+    --color-primary-dark: #3ca251; /* Darkest */
+    --color-primary-light: #a8ebb4; /* Lightest */
 }
 
 .theme-indigo {
-    --color-primary: hsl(231, 48%, 48%); /* Base */
-    --color-primary-dark: hsl(231, 48%, 30%); /* Darkest */
-    --color-primary-light: hsl(231, 48%, 80%); /* Lightest */
+    --color-primary: #5856d6; /* Base */
+    --color-primary-dark: #3b39a6; /* Darkest */
+    --color-primary-light: #a9a7ec; /* Lightest */
 }
 
 .theme-orange {
-    --color-primary: hsl(24, 94%, 50%); /* Base */
-    --color-primary-dark: hsl(24, 94%, 35%); /* Darkest */
-    --color-primary-light: hsl(24, 94%, 75%); /* Lightest */
+    --color-primary: #fd9426; /* Base */
+    --color-primary-dark: #c66d1b; /* Darkest */
+    --color-primary-light: #ffcd94; /* Lightest */
 }
 
 .theme-pink {
-    --color-primary: hsl(330, 100%, 50%); /* Base */
-    --color-primary-dark: hsl(330, 100%, 30%); /* Darkest */
-    --color-primary-light: hsl(330, 100%, 85%); /* Lightest */
+    --color-primary: #fc3158; /* Base */
+    --color-primary-dark: #c22542; /* Darkest */
+    --color-primary-light: #ff97a7; /* Lightest */
 }
 
 .theme-purple {
-    --color-primary: hsl(276, 47%, 50%); /* Base */
-    --color-primary-dark: hsl(276, 47%, 30%); /* Darkest */
-    --color-primary-light: hsl(276, 47%, 80%); /* Lightest */
+    --color-primary: #8e8e93; /* Base */
+    --color-primary-dark: #5f5f63; /* Darkest */
+    --color-primary-light: #c7c7cb; /* Lightest */
 }
 
 .theme-red {
-    --color-primary: hsl(0, 80%, 50%); /* Base */
-    --color-primary-dark: hsl(0, 80%, 35%); /* Darkest */
-    --color-primary-light: hsl(0, 80%, 85%); /* Lightest */
+    --color-primary: #fc3d39; /* Base */
+    --color-primary-dark: #c32e2b; /* Darkest */
+    --color-primary-light: #ff9391; /* Lightest */
 }
 
 .theme-teal {
-    --color-primary: hsl(174, 62%, 45%); /* Base */
-    --color-primary-dark: hsl(174, 62%, 30%); /* Darkest */
-    --color-primary-light: hsl(174, 62%, 75%); /* Lightest */
+    --color-primary: #5fc9f8; /* Base */
+    --color-primary-dark: #4191b3; /* Darkest */
+    --color-primary-light: #a6e4fc; /* Lightest */
 }
 
 .theme-yellow {
-    --color-primary: hsl(45, 100%, 50%); /* Base */
-    --color-primary-dark: hsl(45, 100%, 35%); /* Darkest */
-    --color-primary-light: hsl(45, 100%, 75%); /* Lightest */
+    --color-primary: #fecb2e; /* Base */
+    --color-primary-dark: #b89622; /* Darkest */
+    --color-primary-light: #ffe592; /* Lightest */
 }
-
