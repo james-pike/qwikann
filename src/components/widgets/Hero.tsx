@@ -1,5 +1,4 @@
-import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
-import { BlueBackground, Red1Background, YellBackground } from "./HeroBackground"; // If you want to use an image or an additional background
+import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";// If you want to use an image or an additional background
 
 
 // Define the component to accept a theme prop
