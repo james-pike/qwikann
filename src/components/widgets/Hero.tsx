@@ -4,7 +4,7 @@ import { Theme, themeColors} from "./ThemeColors";
 
 export default component$((props: { theme?: Theme }) => { // Type the theme prop
   const { theme = "theme-yellow" } = props; // Default to theme-yellow if no theme is provided
-  let primaryColor = useSignal<string>("");
+  const primaryColor = useSignal<string>("");
 
 
 
