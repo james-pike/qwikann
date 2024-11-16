@@ -1,4 +1,4 @@
-import { component$, useSignal, useTask$, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useSignal, useTask$} from "@builder.io/qwik";
 import { Theme, themeColors} from "./ThemeColors";
  // Import the theme color mapping and type
 
