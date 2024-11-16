@@ -31,7 +31,7 @@ export default component$((props: { theme?: Theme }) => { // Type the theme prop
 
         </div>
         <div class="relative max-w-7xl mx-auto lg:px-12 lg:gap-20 lg:mt-8 px-4 sm:px-6 flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left">
-          <div class="lg:basis-1/2 pb-40 md:pb-16">
+          <div class="lg:basis-1/2 pb-0 md:pb-16">
             <h1 class="text-5xl md:text-6xl text-primary font-bold leading-tighter tracking-tighter mb-4 font-heading">
               Build A Better {""}
               <br class="hidden lg:block" />
@@ -52,8 +52,71 @@ export default component$((props: { theme?: Theme }) => { // Type the theme prop
               <button class="btn w-full p-3 bg-secondary">Learn More</button>
             </div>
           </div>
-          <div class="lg:basis-1/2">
+          <div class="lg:basis-1/2 pt-10">
             {/* Optionally add another image */}
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 300"
+  width="400"
+  height="300"
+  style="display: block; margin: auto;"
+>
+ 
+  <rect
+    x="10"
+    y="10"
+    width="380"
+    height="280"
+    rx="20"
+    fill="var(--color-primary, #d32f2f)"
+     stroke="var(--color-secondary, #b71c1c)"
+    stroke-width="5"
+  />
+
+  
+  <rect
+    x="50"
+    y="50"
+    width="300"
+    height="180"
+    rx="10"
+    fill="var(--etch-screen, #f0f0f0)"
+   stroke="var(--color-secondary, #b71c1c)"
+    stroke-width="3"
+  />
+
+  
+  <circle
+    cx="70"
+    cy="240"
+    r="20"
+    fill="var(--etch-knob, #cccccc)"
+    stroke="var(--etch-knob-border, #888888)"
+    stroke-width="3"
+  />
+
+ 
+  <circle
+    cx="330"
+    cy="240"
+    r="20"
+    fill="var(--etch-knob, #cccccc)"
+    stroke="var(--etch-knob-border, #888888)"
+    stroke-width="3"
+  />
+
+
+  <text
+    x="200"
+    y="40"
+    text-anchor="middle"
+    fill="var(--etch-brand, #ffffff)"
+    font-size="16"
+    font-family="Arial, sans-serif"
+  >
+    Etch A Sketch
+  </text>
+</svg>
           </div>
         </div>
       </section>
