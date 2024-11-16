@@ -1,16 +1,16 @@
-import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useSignal, useTask$, useVisibleTask$ } from "@builder.io/qwik";
 import { Theme, themeColors} from "./ThemeColors";
  // Import the theme color mapping and type
 
 export default component$((props: { theme?: Theme }) => { // Type the theme prop
   const { theme = "theme-yellow" } = props; // Default to theme-yellow if no theme is provided
-  const primaryColor = useSignal<string>("");
+  const primaryColor = useSignal<string>(themeColors[theme]);
 
 
 
-  useVisibleTask$(() => {
-    const colorValue = themeColors[theme] || "fecb2e"; // Default to yellow
-    primaryColor.value = colorValue;
+  useTask$(({ track }) => {
+    track(() => props.theme); // Track changes to the theme prop
+    primaryColor.value = themeColors[theme] || "fecb2e"; // Update to the new theme color
   });
 
   return (
