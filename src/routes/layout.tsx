@@ -6,6 +6,7 @@ import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "~/components/icons/IconChevronDown";
 import Footer from "~/components/widgets/Footer";
 import Hero from "~/components/widgets/Hero";
+import { Theme } from "~/components/widgets/ThemeColors";
 
 
 export default component$(() => {
@@ -184,7 +185,7 @@ export default component$(() => {
 
       {/* Main Content */}
      
-      <Hero theme={`${selectedTheme.value}`}/>
+      <Hero theme={selectedTheme.value as Theme} />
         <Slot />
      
 

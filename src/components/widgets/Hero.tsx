@@ -1,55 +1,21 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
-import { Theme} from "./ThemeColors";
+import { Theme, themeColors} from "./ThemeColors";
  // Import the theme color mapping and type
 
 export default component$((props: { theme?: Theme }) => { // Type the theme prop
   const { theme = "theme-yellow" } = props; // Default to theme-yellow if no theme is provided
   let primaryColor = useSignal<string>("");
 
+
+
   useVisibleTask$(() => {
-    let colorValue = "";
-
-    switch (theme) {
-      case "theme-blue":
-        colorValue = "147efb"; // Blue
-        break;
-      case "theme-black":
-        colorValue = "000000"; // Black
-        break;
-      case "theme-green":
-        colorValue = "1F7735"; // Green
-        break;
-      case "theme-indigo":
-        colorValue = "5856d6"; // Indigo
-        break;
-      case "theme-orange":
-        colorValue = "fd9426"; // Orange
-        break;
-      case "theme-pink":
-        colorValue = "c22542"; // Pink
-        break;
-      case "theme-purple":
-        colorValue = "8585ff"; // Purple
-        break;
-      case "theme-red":
-        colorValue = "fc3d39"; // Red
-        break;
-      case "theme-teal":
-        colorValue = "4191b3"; // Teal
-        break;
-      case "theme-yellow":
-        colorValue = "fecb2e"; // Yellow
-        break;
-      default:
-        colorValue = "fecb2e"; // Default to Yellow if no match
-        break;
-    }
-
-    primaryColor.value = colorValue; // Set the primary color signal to the selected color
+    const colorValue = themeColors[theme] || "fecb2e"; // Default to yellow
+    primaryColor.value = colorValue;
   });
+
   return (
     <div>
-      <p>{primaryColor.value}</p>
+      {/* <p>{primaryColor.value}</p> */}
      
       <section class={`relative md:-mt-[76px] not-prose flex items-center justify-center h-[80vh] ${theme}`}>
         <div class="absolute inset-0 -mt-28 overflow-hidden -z-10">
